@@ -1,0 +1,19 @@
+<?php
+namespace Builder\Packing;
+
+use Builder\Interfaces\Package;
+
+/**
+ * Æ¿×Ó°ü×°
+ * 
+ * @author DELL
+ *        
+ */
+class Bottle implements Package
+{
+
+    public function packing()
+    {
+        return "Bottle";
+    }
+}
